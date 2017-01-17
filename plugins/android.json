@@ -1,0 +1,85 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.synconset.imagepicker": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-facebook4": {
+            "APP_ID": "1429423624023316",
+            "APP_NAME": "CatFriend",
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-google-analytics": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "ionic-plugin-deeplinks": {
+            "URL_SCHEME": "photogram",
+            "DEEPLINK_SCHEME": "https",
+            "DEEPLINK_HOST": "photogram.codevibe.io",
+            "ANDROID_PATH_PREFIX": "/",
+            "ANDROID_2_PATH_PREFIX": "/",
+            "ANDROID_3_PATH_PREFIX": "/",
+            "ANDROID_4_PATH_PREFIX": "/",
+            "ANDROID_5_PATH_PREFIX": "/",
+            "DEEPLINK_2_SCHEME": " ",
+            "DEEPLINK_2_HOST": " ",
+            "DEEPLINK_3_SCHEME": " ",
+            "DEEPLINK_3_HOST": " ",
+            "DEEPLINK_4_SCHEME": " ",
+            "DEEPLINK_4_HOST": " ",
+            "DEEPLINK_5_SCHEME": " ",
+            "DEEPLINK_5_HOST": " ",
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "parse-push-plugin": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        }
+    }
+}

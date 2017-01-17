@@ -1,0 +1,75 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-facebook4": {
+            "APP_ID": "1024016557617380",
+            "APP_NAME": "Photogram",
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.agenciafoccus.photogram2"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.agenciafoccus.photogram2"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.agenciafoccus.photogram2"
+        },
+        "parse-push-plugin": {
+            "PACKAGE_NAME": "com.agenciafoccus.photogram2"
+        },
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "com.agenciafoccus.photogram2"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.agenciafoccus.photogram2"
+        },
+        "cordova-plugin-google-analytics": {
+            "PACKAGE_NAME": "com.agenciafoccus.photogram2"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.agenciafoccus.photogram2"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.agenciafoccus.photogram2"
+        },
+        "com.synconset.imagepicker": {
+            "PACKAGE_NAME": "com.agenciafoccus.photogram2"
+        },
+        "ionic-plugin-deeplinks": {
+            "URL_SCHEME": "photogram",
+            "DEEPLINK_SCHEME": "https",
+            "DEEPLINK_HOST": "photogram.codevibe.io",
+            "PACKAGE_NAME": "com.agenciafoccus.photogram2"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.agenciafoccus.photogram2"
+        },
+        "cordova-plugin-webp": {
+            "PACKAGE_NAME": "com.agenciafoccus.photogram2"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.instacat.instacat"
+        }
+    }
+}

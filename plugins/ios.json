@@ -1,0 +1,79 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.synconset.imagepicker": {
+            "PHOTO_LIBRARY_USAGE_DESCRIPTION": "Imagens para selecionar",
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-plugin-camera": {
+            "CAMERA_USAGE_DESCRIPTION": " ",
+            "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-plugin-facebook4": {
+            "APP_ID": "1429423624023316",
+            "APP_NAME": "CatFriend",
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-plugin-geolocation": {
+            "GEOLOCATION_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-plugin-google-analytics": {
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-plugin-webp": {
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "ionic-plugin-deeplinks": {
+            "URL_SCHEME": "photogram",
+            "DEEPLINK_SCHEME": "https",
+            "DEEPLINK_HOST": "photogram.codevibe.io",
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        },
+        "parse-push-plugin": {
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.instacat.catsitter"
+        }
+    }
+}

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="sennit.com.CatFriends" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <feature name="FacebookConnectPlugin">
+        <param name="browser-package" value="FacebookConnectPluginBrowser" />
+        <param name="onload" value="true" />
+    </feature>
+    <plugin name="FacebookConnectPlugin" value="FacebookConnectPlugin" />
+    <access origin="https://m.facebook.com" />
+    <access origin="https://connect.facebook.net" />
+    <access origin="https://graph.facebook.com" />
+    <access origin="https://api.facebook.com" />
+    <access origin="https://*.fbcdn.net" />
+    <access origin="https://*.akamaihd.net" />
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <name>Instacat</name>
+    <description>Share your cat photos.</description>
+    <author email="contact@instacat.com.br" href="http://www.instacat.com.br/">Instacat</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="tel:*" />
+    <allow-navigation href="mailto:*" />
+    <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="StatusBarBackgroundColor" value="#045F54" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="SplashScreenDelay" value="100" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value="300" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="false" />
+    <preference name="orientation" value="portrait" />
+    <preference name="xwalkVersion" value="18+" />
+    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
+    <preference name="xwalkMode" value="embedded" />
+    <preference name="xwalkMultipleApk" value="true" />
+    <preference name="ParseAppId" value="fa30d6e0-e0ec-4563-bbbf-fbef54e592c1" />
+    <preference name="ParseServerUrl" value="https://instacat2.herokuapp.com/parse/" />
+    <preference name="ParseGcmSenderId" value="285805785383" />
+    <preference name="ParseMultiNotifications" value="true" />
+</widget>

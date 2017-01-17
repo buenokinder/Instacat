@@ -1,0 +1,37 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-buttons start>
+            <button ion-button icon-only (click)="onPageUsers()">
+                <ion-icon name="person-add"></ion-icon>
+            </button>
+        </ion-buttons>
+        
+        <ion-title><ion-icon name="paw"></ion-icon> {{appName}}</ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="onPageChat()">
+                <ion-icon name="ios-chatboxes-outline"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+    <ion-toolbar no-border-top no-border-bottom color="primary">
+        <ion-segment [(ngModel)]="privacity">
+            <ion-segment-button (ionSelect)="onSelectPrivacity('public')" value="public">{{'Public' | translate }}
+            </ion-segment-button>
+            <ion-segment-button (ionSelect)="onSelectPrivacity('followers')" value="followers">{{'Followers' | translate
+                }}
+            </ion-segment-button>
+            <ion-segment-button (ionSelect)="onSelectPrivacity('me')" value="me"> {{'Me' | translate}}
+            </ion-segment-button>
+        </ion-segment>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <upload-status></upload-status>
+    <ion-refresher (ionRefresh)="doRefresh($event)">
+        <ion-refresher-content></ion-refresher-content>
+    </ion-refresher>
+    <photo-list [event]="eventName"></photo-list>
+    <ion-infinite-scroll *ngIf="moreItem" (ionInfinite)="doInfinite($event)">
+        <ion-infinite-scroll-content></ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+</ion-content>

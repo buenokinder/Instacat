@@ -1,0 +1,60 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>{{'Chats'| translate}}</ion-title>
+        <ion-buttons start>
+            <button ion-button icon-only (click)="dismiss()">
+                <ion-icon name="close"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <loader *ngIf="loading "></loader>
+    <!-- error -->
+    <div class="center" *ngIf="showErrorView" padding>
+        <div class="error ">
+            <ion-icon [name]="errorIcon"></ion-icon>
+            <p>{{ 'Connection unavailable' | translate }}</p>
+            <button ion-button color="primary" (click)="doTry()">
+                {{ 'Try again' | translate }}
+            </button>
+        </div>
+    </div>
+    <!-- empty-->
+    <div class="center" *ngIf="showEmptyView" padding>
+        <div class="error">
+            <ion-icon [name]="errorIcon"></ion-icon>
+            <p>{{ 'Not chat' | translate }}</p>
+        </div>
+    </div>
+    <ion-refresher (ionRefresh)="doRefresh($event)">
+        <ion-refresher-content></ion-refresher-content>
+    </ion-refresher>
+    <ion-list>
+
+        <ion-item *ngFor="let item of data" (click)="onPageMessage(item)">
+            <ion-avatar item-left>
+                <!-- One Profile-->
+                <img *ngIf="item.profiles.length==1 && item.profiles[0].photo" [src]="item.profiles[0].photo._url">
+                <img *ngIf="item.profiles.length==1 && !item.profiles[0].photo" src="assets/img/user.png">
+
+
+                <!-- Profile 1-->
+                <img class="img" *ngIf="item.profiles.length>1 && item.profiles[0].photo" [src]="item.profiles[0].photo._url">
+                <img class="img" *ngIf="item.profiles.length>1 && !item.profiles[0].photo" src="assets/img/user.png">
+
+
+                <!-- Profile 2-->
+                <img class="img2" *ngIf="item.profiles.length>1 && item.profiles[1].photo" [src]="item.profiles[1].photo._url">
+                <img class="img2" *ngIf="item.profiles.length>1 && !item.profiles[1].photo" src="assets/img/user.png">
+
+            </ion-avatar>
+
+            <ion-note item-right *ngIf="item.message">{{item.message.createdAt | amTimeAgo}}</ion-note>
+
+            <h2 *ngFor="let profile of item.profiles">{{profile.username}}</h2>
+            <p *ngIf="item.message">{{item.message.message}}</p>
+        </ion-item>
+    </ion-list>
+
+</ion-content>
