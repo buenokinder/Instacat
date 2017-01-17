@@ -2,9 +2,9 @@
 export const APP_NAME: string = 'Instacat';
 
 // Parse
-export const PARSE_APP_ID: string     = 'fa30d6e0-e0ec-4563-bbbf-fbef54e592c1';
-//export const PARSE_SERVER_URL: string = 'http://localhost:1337/parse/';
-export const PARSE_SERVER_URL: string = 'https://instacat2.herokuapp.com/parse/';
+export const PARSE_APP_ID: string     = '5d32ac40-589e-4c7b-8f74-99d026a87b2';
+
+export const PARSE_SERVER_URL: string = 'http://instacatdev.herokuapp.com/parse/';
 
 
 // Google Maps
