@@ -21,9 +21,9 @@
     <preference name="StatusBarBackgroundColor" value="#045F54" />
     <preference name="StatusBarStyle" value="lightcontent" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="SplashScreenDelay" value="100" />
+    <preference name="SplashScreenDelay" value="800" />
     <preference name="FadeSplashScreen" value="true" />
-    <preference name="FadeSplashScreenDuration" value="300" />
+    <preference name="FadeSplashScreenDuration" value="500" />
     <preference name="SplashScreen" value="screen" />
     <preference name="ShowSplashScreenSpinner" value="true" />
     <preference name="AutoHideSplashScreen" value="false" />
@@ -35,7 +35,7 @@
     <preference name="xwalkMultipleApk" value="true" />
   <preference name="ParseAppId" value="fa30d6e0-e0ec-4563-bbbf-fbef54e592c1"/>
   <preference name="ParseServerUrl" value="https://instacat2.herokuapp.com/parse/"/>
-  <preference name="ParseGcmSenderId" value="285805785383"/>
+  <preference name="ParseGcmSenderId" value="611364573676"/>
     <preference name="ParseMultiNotifications" value="true" />
     <platform name="android">
         <allow-intent href="market:*" />
